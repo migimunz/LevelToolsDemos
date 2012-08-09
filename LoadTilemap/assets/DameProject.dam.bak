@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <version>3.0.4</version>
+  <bgColor>0x777777</bgColor>
+  <viewPos x="50" y="19"/>
+  <firstLayersTop>false</firstLayersTop>
+  <spriteEntries currentId="3" selected="true">
+    <sprite name="Background1" idx="1" className="org.flixel.FlxSprite" image="gfx/background1.png" width="480" height="480" preview="0" anchorX="0" anchorY="0" centerAnchor="false" boundsX="0" boundsY="0" boundsWidth="480" boundsHeight="480" constructor="" creation="" exports="true" canScale="false" canRotate="false" surfaceObject="false" tileIndex="-1">
+      <properties>
+        <type typeof="String" name="background" value="background1.png" hidden="false"/>
+      </properties>
+    </sprite>
+    <sprite name="Background2" idx="2" className="org.flixel.FlxSprite" image="gfx/background2.png" width="480" height="480" preview="0" anchorX="0" anchorY="0" centerAnchor="false" boundsX="0" boundsY="0" boundsWidth="480" boundsHeight="480" constructor="" creation="" exports="true" canScale="false" canRotate="false" surfaceObject="false" tileIndex="-1">
+      <properties>
+        <type typeof="String" name="background" value="background2.png" hidden="false"/>
+      </properties>
+    </sprite>
+  </spriteEntries>
+  <layers>
+    <group name="DemoLevel" id="1" xScroll="1" yScroll="1" visible="true" open="true" locked="false" exports="true">
+      <spritelayer name="Background1" id="0" xScroll="0.6" yScroll="0.6" visible="true" locked="false" exports="true" aligned="false" sort="false">
+        <sprite guid="C3A36D4E-450D-3221-C960-FDDE1F611B45" x="0" y="0" Z="0" angle="0" scaleX="1" scaleY="1" flipped="false" idx="1">
+          <properties/>
+        </sprite>
+      </spritelayer>
+      <spritelayer name="Background2" id="1" xScroll="0.8" yScroll="0.8" visible="true" locked="false" exports="true" aligned="false" sort="false" selected="true">
+        <sprite guid="DCB3AFC5-2555-B9A4-203D-289EF60AF1F4" x="0" y="0" Z="0" angle="0" scaleX="1" scaleY="1" flipped="false" idx="2">
+          <properties/>
+        </sprite>
+      </spritelayer>
+      <maplayer name="MainTilemap" id="2" xScroll="1" yScroll="1" x="0" y="0" width="40" height="30" tileset="gfx/tileset.png" tileWidth="16" tileHeight="16" visible="true" hasHits="false" drawIdx="1" collideIdx="1" eraseIdx="0" locked="false" exports="true" tileSpacingX="16" tileSpacingY="16" xStagger="0" tileOffsetX="0" tileOffsetY="0" isMaster="false" mapType="2d" hasHeight="false" repeatX="false" repeatY="false">
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,113,45,43,44,45,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,113,61,59,60,61,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,129,77,78,79,74,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,145,93,94,95,90,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,161,77,78,79,74,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,145,93,94,95,90,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,145,74,75,76,77,144,0,0,0,0,0,0,0,0,0,0,0,0,81,10,11,12,13,11,12,13,14</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,161,102,103,104,105,160,0,0,0,0,0,0,0,0,0,0,0,0,97,26,27,28,29,27,28,29,30</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,42,43,44,45,43,44,45,46</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,58,59,60,61,59,60,61,62</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,145,74,75,76,77,75,76,77,78</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,161,102,103,104,105,103,104,105,100</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,40,40,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,55,55,55,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,0,0,122,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,81,10,11,12,13,14,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,97,26,27,28,29,30,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,113,42,43,44,45,46,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,129,58,59,60,61,62,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</row>
+        <row>0,0,0,0,0,0,145,74,75,76,77,78,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,10,11,12,13,14,15,10,11,12,13</row>
+        <row>0,0,0,0,0,0,161,102,103,104,105,100,160,0,0,0,0,0,0,0,0,0,38,39,41,0,0,0,0,97,26,27,28,29,30,31,26,27,28,29</row>
+        <row>10,11,12,13,14,15,10,11,12,13,14,15,10,11,12,13,14,80,0,0,0,0,54,56,57,0,0,0,0,113,42,43,44,45,46,47,42,43,44,45</row>
+        <row>26,27,28,29,30,31,26,27,28,29,30,31,26,27,28,29,30,96,0,0,0,0,0,0,0,0,0,0,0,113,58,59,60,61,62,63,58,59,60,61</row>
+        <row>42,43,44,45,46,47,42,43,44,45,46,47,42,43,44,45,46,112,0,0,0,0,0,0,0,0,0,0,0,129,74,75,76,77,78,79,74,75,76,77</row>
+        <row>58,59,60,61,62,63,58,59,60,61,62,63,58,59,60,61,62,128,0,0,0,0,0,0,0,0,0,0,0,145,90,91,92,93,94,95,90,91,92,93</row>
+        <row>74,75,76,77,78,79,74,75,76,77,78,79,74,75,76,77,78,144,0,0,0,0,0,0,0,0,0,0,0,161,74,75,76,77,78,79,74,75,76,77</row>
+        <row>90,91,92,93,94,95,90,91,92,93,94,95,90,91,92,93,94,160,0,0,0,0,0,0,0,0,0,0,0,145,90,91,92,93,94,95,90,91,92,93</row>
+      </maplayer>
+    </group>
+  </layers>
+  <tileMatrix currentMatrix="0" rows="3" cols="4" randomizeMiddle="false" ignoreClear="true" ignoreMapEdges="true" allowSpecialTiles="false" tileset="gfx/tileset.png">
+    <row>
+      <tile>90</tile>
+      <tile>91</tile>
+      <tile>92</tile>
+      <tile>93</tile>
+    </row>
+    <row>
+      <tile>74</tile>
+      <tile>75</tile>
+      <tile>76</tile>
+      <tile>77</tile>
+    </row>
+    <row>
+      <tile>90</tile>
+      <tile>91</tile>
+      <tile>92</tile>
+      <tile>93</tile>
+    </row>
+    <specialConnections>
+      <sets>
+        <connections name="Single Inside Corners">
+          <entry green="0x1111111" red="0x10000000"/>
+          <entry green="0x11011111" red="0x100000"/>
+          <entry green="0x11111110" red="0x1"/>
+          <entry green="0x11111011" red="0x100"/>
+        </connections>
+        <connections name="Double Inside Corners">
+          <entry green="0x1011111" red="0x10100000"/>
+          <entry green="0x11011110" red="0x100001"/>
+          <entry green="0x11111010" red="0x101"/>
+          <entry green="0x1111011" red="0x10000100"/>
+        </connections>
+        <connections name="Triple Inside Corners">
+          <entry green="0x1011011" red="0x10100100"/>
+          <entry green="0x1011110" red="0x10100001"/>
+          <entry green="0x11011010" red="0x100101"/>
+          <entry green="0x1111010" red="0x10000101"/>
+        </connections>
+        <connections name="Quad Inside Corners">
+          <entry green="0x1011010" red="0x10100101"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+        </connections>
+        <connections name="Double Outside Corners">
+          <entry green="0x10" red="0x1011000"/>
+          <entry green="0x1000" red="0x1010010"/>
+          <entry green="0x1000000" red="0x11010"/>
+          <entry green="0x10000" red="0x1001010"/>
+        </connections>
+        <connections name="Double Outside Edges">
+          <entry green="0x1000010" red="0x11000"/>
+          <entry green="0x11000" red="0x1000010"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+        </connections>
+        <connections name="Opposing Double Inside Corners">
+          <entry green="0x1111110" red="0x10000001"/>
+          <entry green="0x11011011" red="0x100100"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+        </connections>
+      </sets>
+      <rows>
+        <row set="0">
+          <tiles>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+          </tiles>
+        </row>
+        <row set="0">
+          <tiles>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+          </tiles>
+        </row>
+      </rows>
+    </specialConnections>
+  </tileMatrix>
+  <tileMatrixData name="matrix1" rows="3" cols="4" randomizeMiddle="true" ignoreClear="false" ignoreMapEdges="true" allowSpecialTiles="false" tileset="gfx/tileset.png">
+    <tiles>76,132,133,133,77,78,79,133,93,94,95,79</tiles>
+    <connections set="0">
+      <tiles>0,0,0,0</tiles>
+    </connections>
+    <connections set="0">
+      <tiles>0,0,0,0</tiles>
+    </connections>
+  </tileMatrixData>
+  <tileBrushes/>
+  <colorSwatches/>
+  <bookmarks>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+  </bookmarks>
+  <colourGrid>
+    <colour>0x000000</colour>
+    <colour>0x9c9c9c</colour>
+    <colour>0xffffff</colour>
+    <colour>0xbe2532</colour>
+    <colour>0xe06e8a</colour>
+    <colour>0x483b2a</colour>
+    <colour>0xa36323</colour>
+    <colour>0xeb8833</colour>
+    <colour>0xf6e16d</colour>
+    <colour>0x2e474d</colour>
+    <colour>0x42881e</colour>
+    <colour>0xa2cd2e</colour>
+    <colour>0x1a2531</colour>
+    <colour>0x025683</colour>
+    <colour>0x33a2f1</colour>
+    <colour>0xb2dcee</colour>
+  </colourGrid>
+  <exporter name="C:\Program Files\DAME\lua\Exporters\xmlExporter.lua" spritepos="Top Left" rotatedSpritePos="false" relativePaths="false" useProjectExporterOnly="false">
+    <setting name="ExportOnlyCSV">false</setting>
+    <setting name="DataDir">Z:\home\migimunz\dev\LevelToolsDemos\LoadTilemap\assets</setting>
+  </exporter>
+  <customPropertyTypes/>
+  <guides>
+    <snap>true</snap>
+    <visible>false</visible>
+    <x>0</x>
+    <y>0</y>
+    <xspace>8</xspace>
+    <yspace>8</yspace>
+    <gridcolour>0x77000000</gridcolour>
+    <snaptype>TopLeft</snaptype>
+    <paintcontinuous>false</paintcontinuous>
+    <showgameregion>false</showgameregion>
+    <gameregionwidth>400</gameregionwidth>
+    <gameregionheight>400</gameregionheight>
+    <gameregionopacity>0.5</gameregionopacity>
+    <gameregioncentered>false</gameregioncentered>
+    <minGridSpace>16</minGridSpace>
+    <showregiongrid>false</showregiongrid>
+    <regiongridx>0</regiongridx>
+    <regiongridy>0</regiongridy>
+    <regiongridcolour>0xccffffff</regiongridcolour>
+  </guides>
+</project>

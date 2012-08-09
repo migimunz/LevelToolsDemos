@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="DemoLevel" minx="0" miny="0" maxx="400" maxy="400" bgColor = "0xff777777" >
+	<layer name="MainTilemap" xScroll="1.000" yScroll="1.000" >
+		<map csv="DameProject/mapCSV_DemoLevel_MainTilemap.csv" tiles="gfx/tileset.png" x="0.000" y="0.000" tileWidth="20" tileHeight="20" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+	<layer name="DecorationTilemap" xScroll="1.000" yScroll="1.000" >
+		<map csv="DameProject/mapCSV_DemoLevel_DecorationTilemap.csv" tiles="gfx/tileset.png" x="0.000" y="0.000" tileWidth="20" tileHeight="20" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+</level>

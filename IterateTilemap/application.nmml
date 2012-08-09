@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="IterateTilemap" package="org.ivar.leveltools.demo.IterateTilemap" version="1.0.0" company="migimunz" />
+	
+	<!-- output -->
+	<app main="org.ivar.leveltools.demo.Main" file="IterateTilemap" path="bin" />
+	
+	<window background="#000000" fps="60" />
+	<window width="400" height="400" unless="mobile" />
+	<window orientation="landscape" vsync="true" antialiasing="0" if="cpp" />
+	
+	<set name="BUILD_DIR" value="bin" />
+	<set name="SWF_VERSION" value="10.1" />
+	<app preloader="org.flixel.system.FlxPreloader" />
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<haxelib name="nme" />
+	<haxelib name="flixel" />
+	<haxelib name="LevelTools" />
+	
+	<!-- assets -->
+	<icon path="assets/nme.svg" />
+	<assets path="assets" include="*" exclude="nme.svg" />
+	<assets path="assets" include=".png" type="image" />
+	
+	<!-- DLLs -->
+	<ndll name="std" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	<ndll name="nme" haxelib="nme" />
+	
+</project>

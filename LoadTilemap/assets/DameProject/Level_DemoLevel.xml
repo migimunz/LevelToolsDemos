@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name="DemoLevel" minx="0" miny="0" maxx="640" maxy="480" bgColor = "0xff777777" >
+	<layer name="Background1" xScroll="0.400" yScroll="1.000" >
+		<sprite class="org.flixel.FlxSprite" name="Background1" x="0.00" y="0.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" >
+			<properties>
+				<prop name="background" value="background1.png" />
+			</properties>
+		</sprite>
+	</layer>
+	<layer name="Background2" xScroll="0.600" yScroll="1.000" >
+		<sprite class="org.flixel.FlxSprite" name="Background2" x="0.00" y="0.00" angle="0.00" flip="false" xScale="1.00" yScale="1.00" >
+			<properties>
+				<prop name="background" value="background2.png" />
+			</properties>
+		</sprite>
+	</layer>
+	<layer name="MainTilemap" xScroll="1.000" yScroll="1.000" >
+		<map csv="DameProject/mapCSV_DemoLevel_MainTilemap.csv" tiles="gfx/tileset.png" x="0.000" y="0.000" tileWidth="16" tileHeight="16" hasHits="false" collIdx="1" drawIdx="1" />
+	</layer>
+</level>
