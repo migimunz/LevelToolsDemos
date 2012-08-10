@@ -5,7 +5,7 @@ import org.flixel.FlxSprite;
 import org.flixel.FlxCamera;
 import org.flixel.FlxG;
 import org.flixel.FlxRect;
-import nme.installer.Assets;
+import nme.Assets;
 import org.flixel.FlxTilemap;
 import org.ivar.leveltools.DameLevel;
 import org.ivar.leveltools.Properties;
